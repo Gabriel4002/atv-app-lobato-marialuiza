@@ -1,0 +1,101 @@
+@import url('https://fonts.google.com/specimen/Holtwood+One+SC');
+
+ion-content{
+   --ion-background-color: #F2EFF6;
+}
+//row superior
+.menu-hamburguer{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.circle usuario{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 270px;
+    height: 90px;
+}
+
+.tenis{
+    border: solid lightgray;
+    border-radius: 30%;
+    height: 130px;
+    background-color: lightgray;
+}
+#green{
+    border: solid yellow;
+    border-radius: 30%;
+    background-color: yellow;
+}
+
+h1{
+
+    color: darkblue;
+}
+.subtitulo{
+    margin: 0;
+    margin-bottom: 0;
+    color: darkblue;
+}
+.text{
+    margin: 0;
+    margin-top: 0;
+    color: darkblue;
+    font-family: 'Holtwood One SC';;
+}
+p{
+    
+    color: darkblue;
+}
+.lastrow{
+    margin: 0;
+    margin-bottom: 0;
+}
+.valor{
+    font-family:'Holtwood One SC';
+    font-size: 30px;
+    margin: 0;
+    color: darkblue;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+h2{
+       color: darkblue;
+       margin-left: 10px;
+    
+}
+
+.circle enviar{
+    border-radius: 50%;
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.circle carrinho{
+    border: solid darkblue;
+   
+    
+}
+.circle{
+    width: 50px; 
+  height: 50px; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkblue;
+  border: 2px solid darkblue; 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+#user{
+    margin-top: 19px;
+    background-color: black;
+    border-color: black;
+}
+#bolsa{
+    background-color: lightgreen;
+    border: lightgreen;
+}

@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<div class="container">
+  <div class="item" id="one">
+       <img class="logo" src="assets/img/logo.png" alt="">
+  </div>  
+  <div class="meio" id="two">
+  <img class="tenismaior" src="assets/img/tenisgrande.png">
+  <div class="item" id="three"> 
+    <ion-text> 
+          <h1> SUMMER <br> COLLECTION <BR><span> 2022 </span></h1> <BR> <p class="texto1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum recusandae necessitatibus ducimus eius nemo, minus accusantium doloremque distinctio </p>
+          </ion-text>
+    </div>  
+</div>   
+  <div class="botao" id="four">
+     <button color="warning"id="botao">GET STARTED<ion-icon slot="end"name="arrow-forward"></ion-icon>
+     </button>  
+    </div>
+</div>
+</ion-content>
+

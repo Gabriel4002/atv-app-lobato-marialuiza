@@ -1,0 +1,72 @@
+ion-content{
+   --ion-background-color: linear-gradient(to right top, #17a0b2, #00b7b7, #00cca2, #00dd74, #12eb1b);
+    }
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#one{
+    
+    height: 90px;
+}
+#three{
+    width: 100%;
+    
+    height: 280px
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+#botao{
+    width: 200px;
+    height: 50px;
+    border-radius: 40%;
+    background-color: orange;
+    box-shadow: 10px 10px 20px rgba($color: #000000, $alpha: 1.0);
+    margin-top: 20px;
+}
+.tenismaior{
+    margin: 0;
+}
+.meio{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    
+    flex-direction: column;
+}
+.logo{
+    width: 120px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+h1{
+    color: darkblue;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 12px;
+    font-size: 30px;
+    
+}
+p{
+    margin-top: 0;
+    color: darkblue;    
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 8px;
+    margin-right: 8px;
+   
+}
+.ano{
+    color: white;
+}

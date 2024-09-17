@@ -1,0 +1,93 @@
+
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Holtwood+One+SC">
+<ion-header [translucent]="true">
+
+ 
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col size="auto">
+        <ion-img class="menu-hamburguer"
+        src="assets/img/menu-hamburguer.png"
+        alt="The Wisconsin State Capitol building in Madison, WI at night"
+      ></ion-img>
+
+
+      </ion-col>
+
+
+      <ion-col size="8">
+        <ion-img class="logo"
+        src="assets/img/logo.png"
+        alt="The Wisconsin State Capitol building in Madison, WI at night"
+      ></ion-img>
+
+      </ion-col>
+     <div id="usercircle"class="circle"> <ion-col size="auto"> <ion-icon class="usuario"name="person"></ion-icon></ion-col></div>
+    </ion-row>
+  </ion-grid>
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col><img class="tenis" id="green"src="assets/img/verde.png" alt=""></ion-col>
+      <ion-col><img class="tenis" src="assets/img/azul.png" alt=""></ion-col>
+      <ion-col><img class="tenis"src="assets/img/bege.png" alt=""></ion-col>
+      
+    </ion-row>
+  </ion-grid>
+  
+  <ion-grid>
+    <ion-row>
+      <img class="otenis" src="assets/img/principal.png" alt="">
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-text color="primary">
+        <h1 class="titulo"><b>KYRIE INFINITY</b></h1>
+        <h2 class="subtitulo">Calçados para Basquete</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores odio sed aperiam voluptatem voluptate ut porro sequi.  veniam nam.</p>
+      </ion-text>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+      <ion-row class="lastrow" size="2">
+          <ion-text color="primary">
+            <h2>PREÇO</h2>
+            <H1 color="primary" class="valor"> <b>$799</b></H1>
+          </ion-text>
+          <ion-col>2</ion-col>
+          <ion-col>2</ion-col>
+          <ion-col>2</ion-col>
+          <ion-col>
+           <div class="circle"> <img class="share"src="assets/img/enviar.png" alt=""></div>
+          </ion-col>
+          <ion-col>
+            <div class="circle" id="bag"> <img class="shopping-bag"src="assets/img/carrinh.png" alt=""></div>
+          </ion-col>
+      </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      
+        <ion-col> 1 </ion-col>
+        <ion-col> 1</ion-col>
+        
+    </ion-row>
+</ion-grid>
+  
+  
+
+
+
+  
+
+
+</ion-content>
